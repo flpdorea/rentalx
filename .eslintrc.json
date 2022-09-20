@@ -37,6 +37,10 @@
         "semi": [
             "error",
             "never"
+        ],
+        "comma-dangle": [
+            "error",
+            "never"
         ]
     },
     "settings": {
