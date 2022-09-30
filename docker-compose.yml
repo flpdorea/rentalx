@@ -20,6 +20,10 @@ services:
       - 3000:3000
     volumes:
       - .:/usr/app
+    links:
+      - database
+    depends_on:
+      - database
 
 volumes:
   pgdata: 
